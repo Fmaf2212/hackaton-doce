@@ -1,0 +1,41 @@
+$first-Color:#2980b9;
+$second-Color:#fff;
+$third-Color: linear-gradient(180deg, white, skyblue);
+$fourth-Color: linear-gradient(180deg, white, #ADD5ED);
+ 
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botonIgual{
+    background: radial-gradient(white, skyblue);
+}
+
+.botonNumeros{
+    background: $second-Color;
+}
+
+.botonOperaciones{
+    background: $third-Color;
+    transition: 1s all;
+}
+
+.botonOperaciones:hover{
+    background: $fourth-Color;
+}
+
+.ejercicios{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
